@@ -59,6 +59,9 @@
     "@angular-devkit/core": "~0.5.5",
     "@angular/compiler-cli": "~6.0.0-rc.3",
     "@ngtools/webpack": "~6.0.0-rc.3",
+    "@types/chai": "^4.0.2",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^7.0.5",
     "babel-traverse": "6.24.1",
     "babel-types": "6.24.1",
     "babylon": "6.17.0",
@@ -74,7 +77,7 @@
     "karma-nativescript-launcher": "^0.4.0",
     "lazy": "1.0.11",
     "nativescript-css-loader": "~0.26.0",
-    "nativescript-dev-appium": "~3.3.0",
+    "nativescript-dev-appium": "git+https://github.com/NativeScript/nativescript-dev-appium.git#tsenov/fix-sauceLab-comp",
     "nativescript-dev-typescript": "^0.6.0",
     "nativescript-dev-webpack": "next",
     "nativescript-worker-loader": "~0.8.1",
@@ -86,9 +89,6 @@
     "webpack": "~4.5.0",
     "webpack-bundle-analyzer": "^2.9.1",
     "webpack-cli": "~2.0.14",
-    "webpack-sources": "~1.1.0",
-    "@types/chai": "^4.0.2",
-    "@types/mocha": "^2.2.41",
-    "@types/node": "^7.0.5"
+    "webpack-sources": "~1.1.0"
   }
 }
